@@ -1,0 +1,48 @@
+{
+  "name": "grunt-protractor",
+  "version": "0.0.0",
+  "description": "A Grunt task to run Angular's Protractor test runner",
+  "main": "task/grunt-protractor.js",
+  "files": [
+    "tasks/protractor.js",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "grunt test",
+    "install": "webdriver-manager update",
+    "publish": "grunt publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eddiemonge/grunt-protractor"
+  },
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "protractor",
+    "testing",
+    "integration",
+    "e2e"
+  ],
+  "author": "Eddie Monge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddiemonge/grunt-protractor/issues"
+  },
+  "homepage": "https://github.com/eddiemonge/grunt-protractor",
+  "dependencies": {
+    "protractor": "^0.23.1"
+  },
+  "peerDependencies": {
+    "grunt": "^0.4.4"
+  },
+  "devDependencies": {
+    "grunt-bump": "^0.0.14",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.0",
+    "grunt-conventional-changelog": "^1.1.0",
+    "load-grunt-tasks": "^0.4.0"
+  }
+}
